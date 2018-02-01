@@ -6,16 +6,17 @@ This was achieved using awk and publicly available genomic data.
 
 ## Data Source
 
-1000 Genomes was our source of data.
+1000 Genomes was our main source of data.
 
-    http://www.internationalgenome.org/data/
-
-This site lead us to 1000 Genome's ftp server which had pre-calculated allele frequencies (AF) for various populations.
+1000 Genome's ftp server has pre-calculated allele frequencies (AF) for various populations.
 
     ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/
 
-This information was available for each chromosome.
+As seen on the website, information was available for each chromosome.
+
 awk was used to efficiently extract this information into a .csv.
+
+The UF Hipergator2 was used for processing and storing data.
 
 The hyperlinks were created by adding the rsID to the end of an existing link. Excel format is show below:
 
